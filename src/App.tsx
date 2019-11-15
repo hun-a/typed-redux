@@ -1,11 +1,8 @@
 import React from 'react';
+import CounterContainer from './containers/CounterContainers';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <h1>Hello React with Typescript!</h1>
-    </div>
-  );
+function App() {
+  return <CounterContainer />;
 }
 
 export default App;
